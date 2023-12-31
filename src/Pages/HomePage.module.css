@@ -1,0 +1,87 @@
+body{
+    background-color: #1b1b1b;
+}
+
+.name{
+
+    color: rgb(232, 236, 239);
+    margin-left: 20%;
+    margin-top: 30%;
+
+}
+.exactName{
+    color: rgb(250, 6, 6);
+}
+.pic{
+    width: 400px;
+    height: 350px;
+    margin-left: 45%;
+    top: 55%;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px white;
+
+}
+.HeaderButtons{
+    position: absolute;
+    top: 5px;
+    right: 15%;
+    
+}
+button{
+    position: relative;
+    background-color: #1b1b1b;
+    margin-left: 10px;
+    border: none;
+    color: rgb(232, 236, 239);
+    cursor: pointer;
+   
+}
+.Portfolio{
+    color:  rgb(232, 236, 239);
+    left: 5%;
+    position: absolute;
+    top: 0px;
+}
+.portfolio{
+    color: rgb(250, 6, 6);
+}
+.pahra{
+    color:  rgb(232, 236, 239);
+    margin-left:19%;
+    margin-right: 60%;
+}
+.welcome{
+    color: rgb(232, 236, 239);
+    left: 28%; 
+    position: absolute;
+    top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px
+
+}
+.wel{
+    color: rgb(250, 6, 6);
+   
+}
+.to{
+    display: inline-block;
+    overflow: hidden;
+    opacity: 1;
+   
+}
+.to::after{
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 5s steps(23,end);
+}
+@keyframes typing{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
