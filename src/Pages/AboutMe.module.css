@@ -1,0 +1,17 @@
+.ed{
+    left: 40%;
+    position: absolute;
+    margin-top: 10%;
+    color: rgb(250, 6, 6);
+    box-shadow: 0px 2px 4px rgb(232, 236, 239);;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ed1{
+    color: rgb(232, 236, 239);
+    left: 22%;
+    position: absolute;
+    margin-top: 13%;
+}

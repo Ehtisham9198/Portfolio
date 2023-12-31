@@ -2,6 +2,8 @@ import React from "react";
 import classes from './HomePage.module.css';
 import Mypic from './myphoto.jpg';
 import TypingAnimation from './TypingAnimation'; // Import the TypingAnimation component
+import AboutME from "./AboutMe";
+import Skills from "./Skills";
 
 
 const HomePage = (props) => {
@@ -21,7 +23,7 @@ const HomePage = (props) => {
         </header>
         <h1 className={classes.welcome}>
         <span className={classes.wel}>Welcome</span>{" "}
-        <TypingAnimation text=" to my website" speed={150} repeatCount={3} />
+        <TypingAnimation text=" to my website" speed={100} repeatCount={3} />
       </h1>
         <h1 className={classes.name}>
           Hi, I'm <span className={classes.exactName}>Ehtisham</span><br /> a Software Developer
@@ -30,6 +32,8 @@ const HomePage = (props) => {
           I'm a passionate and skilled Software Developer. I have good experience of both Frontend and Backend development
         </p>
         <img src={Mypic} alt="Ehtisham's profile picture" className={classes.pic} />
+        <AboutME/>
+        <Skills/>
       </div>
     );
   }

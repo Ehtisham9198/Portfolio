@@ -1,0 +1,36 @@
+
+.skil{
+    left: 42%;
+    position: absolute;
+    margin-top: 23%;
+    color: rgb(250, 6, 6);
+    box-shadow: 0px 2px 4px rgb(232, 236, 239);;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ed1{
+    color: rgb(232, 236, 239);
+    left: 22%;
+    position: absolute;
+    margin-top: 26%;
+}
+.ed11{
+    color: rgb(232, 236, 239);
+    left: 37%;
+    position: absolute;
+    margin-top: 26.5%;
+}
+.ed111{
+    color: rgb(232, 236, 239);
+    left: 50%;
+    position: absolute;
+    margin-top: 30%;
+}
+.frame{
+    position: absolute;
+    left: 47%;
+    color: rgb(232, 236, 239);
+    margin-top: 27.5%;
+}
