@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './HomePage.module.css';
-import pic from './myphoto.jpg'
+import Mypic from './myphoto.jpg'
 
 const HomePage=(props)=>{
 
@@ -19,7 +19,7 @@ const HomePage=(props)=>{
             <h1 className={classes.welcome}> <span className={classes.wel}>Welcome</span> <span className={classes.to}> to My Website </span></h1>
             <h1 className={classes.name}>Hi, I'm <span className={classes.exactName}>Ehtisham</span><br /> a Software Developer</h1>
             <p className={classes.pahra}>I'm a passionate and skilled Software Developer. I have good experience of both Frontend and Backend development</p> 
-            <img src={pic} alt="my" className={classes.pic} />
+            <img src={Mypic} alt="meri" className={classes.pic} />
         </div>
     );
 }
