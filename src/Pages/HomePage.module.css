@@ -64,24 +64,6 @@ button{
     color: rgb(250, 6, 6);
    
 }
-.to{
-    display: inline-block;
-    overflow: hidden;
-    opacity: 1;
-   
-}
-.to::after{
-    display: inline-block;
-    overflow: hidden;
-    animation: typing 5s steps(23,end);
-}
-@keyframes typing{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
 
-}
+  
 
