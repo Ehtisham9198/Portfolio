@@ -65,5 +65,39 @@ button{
    
 }
 
-  
 
+/* Media Query for Mobile Phones */
+@media only screen and (max-width: 600px) {
+    .name {
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .pic {
+        width: 100%;
+        height: auto;
+        margin-left: 5%;
+        top: 20%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .HeaderButtons {
+        right: 5%;
+    }
+
+    .Portfolio {
+        left: 5%;
+    }
+
+    .pahra {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .welcome {
+        left: 5%;
+        top: 10%;
+        font-size: 16px;
+    }
+}

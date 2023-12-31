@@ -34,3 +34,19 @@
     color: rgb(232, 236, 239);
     margin-top: 27.5%;
 }
+
+/* Media Query for Mobile Phones */
+@media only screen and (max-width: 600px) {
+    .skil {
+        left: 10%;
+        margin-top: 10%;
+    }
+
+    .ed1,
+    .ed11,
+    .ed111,
+    .frame {
+        left: 10%;
+        margin-top: 15%;
+    }
+}
